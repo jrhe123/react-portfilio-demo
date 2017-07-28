@@ -1,6 +1,3 @@
-
-#React Website Demo
-
 1. 
 	yarn add react-router@3.x
    	yarn add styled-components
@@ -60,3 +57,17 @@
 14. deploy
 
 	npm run build	
+
+	add line to => package.json
+
+	npm run build
+
+	copy scripts to => package.json
+
+	yarn add --dev gh-pages
+
+	npm run deploy
+
+15. live demo
+
+https://jrhe123.github.io/react-portfilio-demo/#/	
