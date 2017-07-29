@@ -8,12 +8,12 @@ import {blue} from 'theme/variables';
 export const Background = styled.div`
 	
 	position: fixed;
-	left: 5vw;
-	top: 5vh;
-	width: 90vw;
-	height: 90vh;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
 	background-image: url(${require('assets/react-logo.png')});
-	background-color: ${blue};
+	background-color: #F9F9F9;
 	background-size: 60%;
 	background-repeat: no-repeat;
 	background-position: center;

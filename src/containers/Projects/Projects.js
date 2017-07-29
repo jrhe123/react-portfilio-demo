@@ -32,15 +32,15 @@ export default class Projects extends Component {
   render() {
     return (
       <Container>
+      	<br/><br/>
+      	<h2>ReactJs App <A href="https://github.com/jrhe123">Demo</A></h2>
+      	<br/>
 
       	<Relative marginBottom="80px">
 	      	<Index>
 	      		<h1>EX.1</h1>
 	      	</Index>
-      	</Relative>
-
-      	<h2>ReactJs App Demo <A href="">Roy Test</A></h2>
-	    
+      	</Relative>	    
 
 	    <h2>Zoomy Effect</h2>  
 		<Flex justify={'center'} marginBottom="300px">
@@ -59,13 +59,19 @@ export default class Projects extends Component {
 	      	}
 	      }}
 	      />
-	     </Flex> 
+	    </Flex> 
 
-
-			<h2>Parallax Effect</h2>
-				<ParallaxImage 
-				reduceHeight={2/3}
-				src={require('assets/1_thumbnail.jpg')} />
+			<Relative>
+		      	<Index>
+		      		<h1>EX.2</h1>
+		      	</Index>
+	      	</Relative><br/><br/>
+	      	<div>
+				<h2>Parallax Effect</h2>
+					<ParallaxImage 
+					reduceHeight={2/3}
+					src={require('assets/1_thumbnail.jpg')} />
+			</div>	
 			
 			<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 

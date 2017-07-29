@@ -8,6 +8,10 @@ import {Relative} from 'theme/Container';
 import {red} from 'theme/variables';
 
 
+import PlayButton from 'components/PlayButton/PlayButton';
+
+
+
 export const Title = styled.h1`
 
 	margin-top: 0;
@@ -17,3 +21,4 @@ export const Title = styled.h1`
 export const VideoContainer = styled(Relative)`
 	width: 70%;
 `;
+

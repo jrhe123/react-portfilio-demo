@@ -26,10 +26,12 @@ hashHistory.listen(() => {
 ReallySmoothScroll.shim();
 
 class App extends Component {
+
+  // <Background />
+  
   render() {
     return (
       <div>
-      		<Background />
       		<NavigationBar />
         	{this.props.children}
       </div>

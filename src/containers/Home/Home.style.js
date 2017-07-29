@@ -6,6 +6,7 @@ export const Image = styled.img`
 
 export const MainImage = styled.div`
 	height: 100vh;
+  width: 100%;
 	background-image: url(${require('../../assets/cinemagraph.gif')});
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -23,7 +24,11 @@ export const MainImage = styled.div`
 
 	h1{
 		margin-bottom: 0;
+    text-shadow: 3px 3px 10px #000;
 	}
+  h2{
+    text-shadow: 3px 3px 10px #000;
+  }
 `;
 
 
