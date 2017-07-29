@@ -1,3 +1,20 @@
+
+React JS effect libraries: 
+
+React Demo
+
+Live demo
+
+https://jrhe123.github.io/react-portfilio-demo/#/	
+
+
+
+
+
+
+
+
+
 1. 
 	yarn add react-router@3.x
    	yarn add styled-components
@@ -68,6 +85,3 @@
 
 	npm run deploy
 
-15. live demo
-
-https://jrhe123.github.io/react-portfilio-demo/#/	
